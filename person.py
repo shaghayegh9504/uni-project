@@ -1,8 +1,10 @@
-class Person():
-    def __init__(self,fname , lname , age , pid):
-        self.fname = fname
-		self.lname = lname
-		self.age = age
-		self.id = fpid
-		
+class Member():
+    
+    def __init__(self,id,name,address,password,kind):
+        self.id = id
+        self.name=name
+        self.address=address
+        self.password = password
+        self.kind=kind
+
     
