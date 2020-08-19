@@ -8,3 +8,8 @@ class Member():
         self.kind=kind
 
     
+    def save2Db(self):
+        sql = ''' INSERT INTO Member(id,name,password,kind)
+        VALUES(?,?,?,?) '''
+        cur = conn.cursor()
+        cur.execute(sql,self.id,self.name,self.password,self.kind)
