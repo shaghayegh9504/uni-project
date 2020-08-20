@@ -22,6 +22,4 @@ class Book():
 	# Feature12
 	def new_feature (self):
 		print('+++++++++++++++++++++++')
-		print('somethins is still wrong')
-		
-		print('OOOOOOOOOOOOOOOOps . Error !')
+		print('everything is ok')
