@@ -23,3 +23,5 @@ class Book():
 	def new_feature (self):
 		print('+++++++++++++++++++++++')
 		print('somethins is still wrong')
+		
+		print('OOOOOOOOOOOOOOOOps . Error !')
