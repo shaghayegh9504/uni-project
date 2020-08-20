@@ -19,3 +19,8 @@ class Book():
     def __str__(self):
         return f'Id : {self.id} , Name : {self.name} , Edition : {self.edition} , Auther : {self.auther} , Status : {self.status}'
 
+	
+	# Feature12
+	def new_feature (self):
+		print('+++++++++++++++++++++++')
+		print('everything is ok')
