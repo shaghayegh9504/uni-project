@@ -6,7 +6,7 @@ class Book():
         self.edition = edition
         self.auther=auther
         self.status=status
-		self.yesr = year
+		self.year = year
 
 
     def save2Db(self):
