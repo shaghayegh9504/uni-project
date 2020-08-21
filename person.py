@@ -31,4 +31,5 @@ class Member():
         return f'Id : {self.id} , Name : {self.name} , Address : {self.address} , Password : {self.password} , Kind : {self.kind}'
 
 
-
+    def __repr__(self):
+        pass
