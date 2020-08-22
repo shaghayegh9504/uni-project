@@ -19,3 +19,9 @@ class Member():
         return f'Id : {self.id} , Name : {self.name} , Address : {self.address} , Password : {self.password} , Kind : {self.kind}'
 
 
+<<<<<<< HEAD
+=======
+
+    def Get_book(self):
+        pass
+>>>>>>> 980f2039355a66ab632bf0ecf72d65466647c78a
