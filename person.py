@@ -34,3 +34,6 @@ class Member():
 
     def Get_book(self):
         pass
+
+    def return_book(self):
+        pass
