@@ -24,3 +24,7 @@ class Book():
 	def new_feature (self):
 		print('+++++++++++++++++++++++')
 		print('everything is ok')
+
+
+    def show_book(self):
+        pass
